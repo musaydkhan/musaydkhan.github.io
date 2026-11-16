@@ -1,0 +1,7 @@
+title: Musaydul Islam Khan
+url: https://musaydkhan.github.io
+timezone: Asia/Dhaka
+permalink: /writings/:title/
+exclude:
+  - README.md
+  - writing-template.md
