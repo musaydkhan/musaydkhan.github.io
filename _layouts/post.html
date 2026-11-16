@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<main>
+<article class="panel post">
+<h1>{{ page.title | escape }}</h1>
+<p class="meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+{{ content }}
+</article>
+</main>
